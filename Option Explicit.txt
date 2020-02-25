@@ -1,0 +1,58 @@
+Option Explicit
+
+Sub vbawolf()
+
+'creating variables for each aggregated column
+
+Dim ticker As String
+Dim yropen As Integer
+Dim yrclose As Integer
+Dim yrchange As Double
+Dim percentchange As Double
+Dim tablerow As Integer
+tablerow = 2
+
+
+Dim totalvol As Integer
+totalvol = 0
+
+Dim lastrow As Double
+
+lastrow = Cells(Rows.Count, 1).End(xlUp).Row
+MsgBox (lastrow)
+
+Dim r As Double
+
+Dim c As Integer
+
+
+For r = 2 To lastrow
+    'If Cells(r + 1, 1).Value <> Cells(r, 1).Value and cells(r,2).value = Then
+    
+    'fill ticker symbol
+    
+    'ticker = Cells(r, 1).Value
+    'Range("I" & tablerow).Value = ticker
+    
+    'tablerow = tablerow + 1
+        
+    'fill yearly change = (Close on day 365 / open on day 1) - 1))
+    
+    'else Cells(r + 1, 1).Value <> Cells(r, 1).Value and cells (r,
+    yrclose = Cells(r, 6).Value
+    
+    
+    'yropen = cells(r-
+    
+    
+    
+    
+    'fill
+    
+    Else
+    End If
+    
+    
+Next r
+
+    
